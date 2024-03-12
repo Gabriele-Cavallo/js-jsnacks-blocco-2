@@ -6,3 +6,8 @@ let userNumber = parseInt(prompt('Dimmi un numero'));
 console.log('user-number' , userNumber);
 // 2 - Se il numero è pari stampo il numero
     // - altrimenti stampo il numero successivo a quello inserito
+if (userNumber % 2 === 0){
+    console.log('user-number-even' , userNumber);
+}else{
+    console.log('user-number-odd' , userNumber + 1);
+}
