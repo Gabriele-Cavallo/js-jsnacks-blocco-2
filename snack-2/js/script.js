@@ -14,3 +14,20 @@ if(userWord.length < userWord2.length){
     console.log('user-word-long' , userWord);
 }
 
+// Oppure
+
+// let words = [];
+// let userWord = prompt('Dimmi una parola');
+// words.push(userWord);
+// let userWord2 = prompt('Dimmi una parola');
+// words.push(userWord2);
+// console.log('array' , words);
+// if(words[0].length < words[words.length - 1].length){
+//     console.log('user-word-short' , userWord);
+//     console.log('user-word-long' , userWord2);
+// }else{
+//     console.log('user-word-short' , userWord2);
+//     console.log('user-word-long' , userWord);
+// }
+
+
