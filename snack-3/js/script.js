@@ -16,7 +16,12 @@
         for (let i = 0; i < 10; i++) {
             let number = Math.floor(Math.random() * 10) + 1;
             numbers.push(number);
+            // - quelli pari li metto nell'id rosso
+            // - quelli dispari li metto nell'id verde
+            if(number % 2 === 0){
+                greenText.innerHTML += `${number}, `;
+            }else{
+                redText.innerHTML += `${number}, `;
+            }
         }
         console.log('array' , numbers);
-        // - quelli pari li metto nell'id rosso
-        // - quelli dispari li metto nell'id verde
