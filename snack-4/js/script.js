@@ -7,8 +7,11 @@ let userNumber = prompt('Dimmi un numero a 4 cifre');
 // console.log('user-number' , userNumber);
 // 2 - Leggo le 4 cifre del numero
         // - sommo le 4 cifre
+        let sum = 0;
         for (let i = 0; i < userNumber.length; i++) {
             let numbers = parseInt(userNumber[i]);
             console.log('numbers' , numbers);
+            sum += numbers;
         }
+        console.log('final-sum' , sum);
         
