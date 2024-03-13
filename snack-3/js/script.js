@@ -13,7 +13,8 @@
         greenText.style.color = "green";
 // 2 - Creo un array di numeri
         let numbers = [];
-        for (let i = 0; i < 10; i++) {
+        let arrayLength = 10;
+        for (let i = 0; i < arrayLength; i++) {
             let number = Math.floor(Math.random() * 10) + 1;
             numbers.push(number);
             // - quelli pari li metto nell'id rosso
